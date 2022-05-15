@@ -41,7 +41,7 @@ contract SolnSquareVerifier is CoolHousesToken
     // DONE Create a function to mint new NFT only after the solution has been verified
     //  - make sure the solution is unique (has not been used before)
     //  - make sure you handle metadata as well as tokenSupply
-    function mint(uint256 index,
+    function verify_and_mint(uint256 index,
                 address addr,
                 uint[2] memory a,
                 uint[2][2] memory b,
