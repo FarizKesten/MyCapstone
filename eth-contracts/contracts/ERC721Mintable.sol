@@ -531,7 +531,7 @@ contract CoolHousesToken is ERC721Metadata("CustomERC721Token", "CHT", "https://
     //      -takes in a 'to' address, tokenId, and tokenURI as parameters
     //      -returns a true boolean upon completion of the function
     //      -calls the superclass mint and setTokenURI functions
-    function mint(address to, uint256 tokenId, string memory tokenURI) public onlyOwner returns(bool)
+    function mint(address to, uint256 tokenId) public onlyOwner returns(bool)
     {
         super._mint(to, tokenId);
         super._setTokenURI(tokenId);
