@@ -15,6 +15,9 @@ The capstone will build upon the knowledge you have gained in the course in orde
 ( make sure you are the the project folder first)
 `sudo docker run -v $PWD:/home/zokrates/code -ti zokrates/zokrates /bin/bash`
 
+## Deployment
+`truffle migrate --network rinkeby --reset`
+
 ### Compile Program
 ```
     cd code/zokrates/code/square
@@ -27,13 +30,23 @@ The capstone will build upon the knowledge you have gained in the course in orde
     # generate proof based on the witness
     zokrates generate-proof
     # export the verifiert contract
-    zokrate export-verifier
+    zokrates export-verifier
 ```
-cd code/zokrates
-Trusted Setup
-Compute-Witness
-Generate-Proof
-Export-Verifier
+### Truffle Test
+`truffle test`
+
+### Contracts
+-`SolnSquareVerifier`: 0xb6A3F14860D1051f5886F593668Dd708514D5558
+-`Verifier`: 0xe2D7C236e02aA5Ddcb8d6aB7DDaC2bE86147F067
+-`Migrations`: 0x8217b5De9002b075ca394Bd675298200E1FA6911
+
+
+Mint 10 tokens using MEW: Tutorial available here: https://www.youtube.com/watch?v=8MChn-NJJB0
+
+### Misc. Links
+- Lists of project's FAQs
+https://andresaaap.medium.com/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
+
 
  # Project Resources
 
