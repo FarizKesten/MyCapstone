@@ -33,11 +33,14 @@ The capstone will build upon the knowledge you have gained in the course in orde
     zokrates export-verifier
 ```
 ### Truffle Test
-`truffle test`
+`truffle test` to run all tests or
+`truffle test test/<TestScript>.js` to test a specific part of the code
 
 ### Contracts
 -`SolnSquareVerifier`: 0xb6A3F14860D1051f5886F593668Dd708514D5558
+
 -`Verifier`: 0xe2D7C236e02aA5Ddcb8d6aB7DDaC2bE86147F067
+
 -`Migrations`: 0x8217b5De9002b075ca394Bd675298200E1FA6911
 
 Mint 10 tokens using MEW: Tutorial available here: https://www.youtube.com/watch?v=8MChn-NJJB0
