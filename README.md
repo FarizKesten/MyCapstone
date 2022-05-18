@@ -52,7 +52,7 @@ https://testnets.opensea.io/BillioniareInvestor
 https://rinkeby.etherscan.io/tx/0x18faadc383d7fa79816c0df52f1f57cbc5a5f8d76cb88f29d52522707aefb1bc (Token ID 1)
 https://rinkeby.etherscan.io/tx/0x98d56cfce1e7c8ffa111896825e95e0399fc9160afe8c7bf3f95c4acb99f4a97 (Token ID 2)
 https://rinkeby.etherscan.io/tx/0x3bfe6b672beae9f684a6b5cd5162a09bf16389a7677ee6a9e7ebafbe768175a5 (Token ID 3)
-https://rinkeby.etherscan.io/tx/0x0887b4814835f6c5fa5e675b9c7b62a0a7bfb309e9383b2362718d9d46793cef (Bundle purchase, Token ID $ & 5)
+https://rinkeby.etherscan.io/tx/0x0887b4814835f6c5fa5e675b9c7b62a0a7bfb309e9383b2362718d9d46793cef (Bundle purchase, Token ID 4 & 5)
 ### Misc. Links
 - Lists of project's FAQs
 https://andresaaap.medium.com/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
