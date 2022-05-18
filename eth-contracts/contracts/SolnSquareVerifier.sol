@@ -38,6 +38,15 @@ contract SolnSquareVerifier is CoolHousesToken
         emit solutionAdded(key, addr);
     }
 
+    function getKeyHash(uint[2] memory a,
+                uint[2][2] memory b,
+                uint[2] memory c,
+                uint[2] memory input
+                ) pure public returns(bytes32)
+    {
+        return keccak256(abi.encodePacked(a, b, c, input));
+    }
+
     // DONE Create a function to mint new NFT only after the solution has been verified
     //  - make sure the solution is unique (has not been used before)
     //  - make sure you handle metadata as well as tokenSupply
@@ -49,7 +58,7 @@ contract SolnSquareVerifier is CoolHousesToken
                 uint[2] memory input
                 ) public
     {
-        bytes32 key = keccak256(abi.encodePacked(a, b, c, input));
+        bytes32 key = getKeyHash(a, b, c, input);
         require(uniqueSolutions[key] == address(0), "Solution already used");
         require(verifier.verifyTx(a, b, c, input), "Solution is not valid");
         addSolution(addr, index, key);
