@@ -8,7 +8,6 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 ## Truffles
 `cd eth-contracts && truffle compile` - compile smart contracts
-`cd ../ && truffle migrate --reset` - migrate smart contracts`
 `truffle test ./test/<test_contract.js>` - test smart contracts
 
 ## ZoKrates
@@ -32,12 +31,10 @@ The capstone will build upon the knowledge you have gained in the course in orde
     # export the verifiert contract
     zokrates export-verifier
 ```
-### Truffle Test
-`truffle test`
 
 ### Contracts
--`SolnSquareVerifier`: 0xb6A3F14860D1051f5886F593668Dd708514D5558
--`Verifier`: 0xe2D7C236e02aA5Ddcb8d6aB7DDaC2bE86147F067
+-`SolnSquareVerifier`: 0xb6A3F14860D1051f5886F593668Dd708514D5558 [ABI](https://github.com/FarizKesten/MyCapstone/tree/main/eth-contracts/ABIs/SolnSquareVerifier.json)
+-`Verifier`: 0xe2D7C236e02aA5Ddcb8d6aB7DDaC2bE86147F067 [ABI](https://github.com/FarizKesten/MyCapstone/tree/main/eth-contracts/ABIs/Verifier.json)
 -`Migrations`: 0x8217b5De9002b075ca394Bd675298200E1FA6911
 
 Mint 10 tokens using MEW: Tutorial available here: https://www.youtube.com/watch?v=8MChn-NJJB0
@@ -47,6 +44,9 @@ https://testnets.opensea.io/assets/0xb6a3f14860d1051f5886f593668dd708514d5558/2
 https://testnets.opensea.io/assets/0xb6a3f14860d1051f5886f593668dd708514d5558/3
 https://testnets.opensea.io/assets/0xb6a3f14860d1051f5886f593668dd708514d5558/4
 https://testnets.opensea.io/assets/0xb6a3f14860d1051f5886f593668dd708514d5558/5
+
+## Store rubric
+https://testnets.opensea.io/BillioniareInvestor 
 
 ## Purchased Tokens Transactions
 https://rinkeby.etherscan.io/tx/0x18faadc383d7fa79816c0df52f1f57cbc5a5f8d76cb88f29d52522707aefb1bc (Token ID 1)

@@ -56,14 +56,6 @@ contract SolnSquareVerifier is CoolHousesToken
         mint(addr, index);
     }
 
-    // function mint(uint256 index, address addr, Proof proof, uint[2] memory input) public
-    // {
-    //     bytes32 key = keccak256(abi.encodePacked(proof.a, proof.b, proof.c, input));
-    //     require(uniqueSolutions[key] == address(0), "Solution already used");
-    //     require(verifier.verifyTx(proof,input), "Solution is not valid");
-    //     addSolution(addr, index, key);
-    //     mint(addr, index);
-    // }
 }
 
 
